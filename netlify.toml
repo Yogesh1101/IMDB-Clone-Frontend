@@ -1,6 +1,8 @@
 [build]
   command = "npm run build"
-  publish = "build"
+  publish = "/path/to/build"
+  environment = { REACT_APP_API_LINK = "https://imdb-clone-6grh.onrender.com" }
+
 
 [[redirects]]
   from = "/*"
